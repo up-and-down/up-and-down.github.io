@@ -1,0 +1,8 @@
+#+AUTHOR:  Ida Snedegar
+#+TITLE: Ideas' Garden
+#+EMAIL: alice.rabbit@openmailbox.org
+#+OPTIONS: toc:t author:t email:t
+#+LANGUAGE: en
+#+HTML_DOCTYPE: xhtml5
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="normalize.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />

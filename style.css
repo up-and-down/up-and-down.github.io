@@ -1,0 +1,67 @@
+@font-face {
+   font-family: "FreeSans"';
+   font-style: normal;
+   src: local("FreeSans");
+}
+
+body {
+   font-family: "FreeSans";
+   width: 800px;
+   margin: auto;
+   font-size: 20px;
+   color: #333;
+   background-color: white;
+
+   /* Rendering */
+   text-rendering: optimizeLegibility;
+   -moz-font-feature-settings: 'kern=1';
+   -moz-font-feature-settings: 'kern' 1;
+   -webkit-font-feature-settings: 'kern' 1;
+   -o-font-feature-settings: 'kern' 1;
+   -ms-font-feature-settings: 'kern' 1;
+   font-feature-settings: 'kern' 1;
+   text-rendering: optimizeLegibility;
+   -moz-font-feature-settings: 'liga=1';
+   -moz-font-feature-settings: 'liga' 1;
+   -webkit-font-feature-settings: 'liga' 1;
+   -o-font-feature-settings: 'liga' 1;
+   -ms-font-feature-settings: 'liga' 1;
+   font-feature-settings: 'liga' 1;
+}
+
+#table-of-contents {
+   position: fixed;
+   top: 100px;
+   left: 100px;
+   font-size: 0.8em;
+   padding-left: 1em;
+   line-height: 1.6;
+}
+
+#table-of-contents ul {
+   list-style: none;
+}
+
+#content {
+   position: relative;
+}
+
+.outline-2, .outline-3 {
+   margin-top: 3em;
+}
+
+p {
+   line-height: 1.5;
+   font-size: 1em;
+}
+
+code, kbd, pre, samp {
+   font-family: FreeMono;
+   font-size: 0.8em;
+}
+
+.license {
+   text-align: center;
+   width: 60%;
+   margin: auto;
+}

@@ -1,0 +1,38 @@
+#+SETUPFILE: ./setup.org
+
+* Publishing this document
+
+  - [X] Emacs
+  - [X] org-mode
+  - [X] Export configuration
+  - [X] Setup
+  - [X] Style
+  - [X] License
+
+
+#+INCLUDE: "./style.css" example
+#+INCLUDE: "./setup.org" example
+
+#+NAME: export configuration
+#+BEGIN_SRC elisp :exports code
+  (setq org-publish-project-alist
+        '(("log"
+           :base-directory "~/Documents/notes/log"
+           :publishing-directory "~/Documents/notes/log"
+           :base-extension "org"
+           :exclude "setup.org"
+           :auto-sitemap nil
+           :with-email t
+           :publishing-function org-html-publish-to-html
+           :section-numbers nil
+           :with-toc nil)))
+#+END_SRC
+
+
+
+** License
+
+#+BEGIN_HTML
+<div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Ideas' garden</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Ida Snedegar</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</div>
+#+END_HTML
