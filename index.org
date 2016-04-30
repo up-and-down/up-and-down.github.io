@@ -10,15 +10,15 @@
   - [X] License
 
 
-#+INCLUDE: "./style.css" example
-#+INCLUDE: "./setup.org" example
+#+INCLUDE: "./style.css" src css
+#+INCLUDE: "./setup.org" src org
 
 #+NAME: export configuration
 #+BEGIN_SRC elisp :exports code
   (setq org-publish-project-alist
         '(("log"
-           :base-directory "~/Documents/notes/log"
-           :publishing-directory "~/Documents/notes/log"
+           :base-directory "~/Documents/notes/log/up-and-down.github.io/"
+           :publishing-directory "~/Documents/notes/log/up-and-down.github.io/"
            :base-extension "org"
            :exclude "setup.org"
            :auto-sitemap nil
