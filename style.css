@@ -39,8 +39,23 @@ body {
    line-height: 1.6;
 }
 
+a {
+    color: #428BCA;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #2A6496;
+    text-decoration: underline;
+}
+
+#table-of-contents h2 {
+   font-size: 0.75em;
+}
+
 #table-of-contents ul {
    list-style: none;
+   padding-left: 1em;
 }
 
 #content {
