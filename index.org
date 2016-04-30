@@ -3,7 +3,7 @@
 * Publishing this document
 
   - [X] Emacs
-  - [X] org-mode
+  - [X] Org mode
   - [X] Export configuration
   - [X] Setup
   - [X] Style
